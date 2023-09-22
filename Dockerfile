@@ -1,4 +1,4 @@
-FROM node:18-slim AS node
+FROM node:18.17.0-bullseye-slim AS node
 ENV ENV=production
 WORKDIR /usr/src/app
 COPY package.json ./
