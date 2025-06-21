@@ -7,5 +7,4 @@ routes.post("/findEmployeeById", employees.getEmployeeById);
 routes.put("/updateEmployee", employees.updateEmployee);
 routes.delete("/deleteEmployee", employees.deleteEmployee);
 
-
 module.exports = routes;
